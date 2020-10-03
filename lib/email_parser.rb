@@ -14,7 +14,7 @@ class EmailAddressParser
     
   def parse 
     split_emails = emails.split.collect do |addresses|
-      
+      addresses.split(",")
     binding.pry 
     
     #split_emails = 
