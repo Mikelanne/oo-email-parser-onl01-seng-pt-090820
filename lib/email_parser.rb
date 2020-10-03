@@ -13,8 +13,8 @@ class EmailAddressParser
   end 
     
   def parse 
-    emails.collect do |addresses| 
-      addresses.split(",")
-    end
+    binding.pry 
+    split_emails = 
+    
   end 
 end 
