@@ -8,9 +8,11 @@ require 'pry'
 class EmailAddressParser
   attr_accessor :email 
   
+  binding.pry
+  
   def parse
     
-    binding.pry
+    
     
     #email.split(",", " ")
   end 
