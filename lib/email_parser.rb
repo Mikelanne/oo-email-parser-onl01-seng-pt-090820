@@ -16,10 +16,6 @@ class EmailAddressParser
     split_emails = emails.split.collect do |addresses|
       addresses.split(",")
     end 
-    
-    binding.pry 
-    
-    #split_emails = 
-    
- end 
+    split_emails.flatten.uniq
+  end
 end 
